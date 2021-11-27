@@ -1,0 +1,120 @@
+.pricing {
+    background: $bcg-dark;
+}
+
+.acticles-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 698px;
+    margin: 0 auto;
+}
+.article {
+    width: 334px;
+    background-color: #fff;
+    margin: 0 auto 30px;
+    border-radius: 6px;
+    padding: 50px 27.5px;
+
+    &:last-child {
+    }
+  &__title {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+    letter-spacing: .1px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    margin: 0 0 3.5rem 0;
+}
+  &__text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    color: $grey-text-color;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto 35px;
+}
+  &__price {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0 35px 0;
+      h2 {
+        font-size: 4rem;
+        line-height: 5.7rem;
+        letter-spacing: 0.2px;
+        font-weight: 700;
+        color: $primary-blue;
+        margin: 0 10px 0 0;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h3 {
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            letter-spacing: 0.1px;
+            font-weight: 700;
+            color: $primary-blue;
+        }
+        span {
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            letter-spacing: 0.2px;
+            font-weight: 600;
+            color: $primary-blue-disabled;
+        }
+      }
+}
+  &__pros-container {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 35px 0;
+        li {
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            letter-spacing: 0.2px;
+            font-weight: 600;
+            margin: 0 0 17px 0;
+            display: flex;
+            align-items: center;
+            .svg-circle {
+                width: 32px;
+                height: 32px;
+                margin: 0 10px 0 0;
+            }
+            &:last-child {
+                margin: 0;
+            }
+        }
+}
+  &__btn {
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      letter-spacing: .2px;
+      font-weight: 700;
+      padding: 15px 100px;
+    //   width: 100%;
+      background: $primary-blue;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+}}
+
+.green {
+    rect {
+        fill: #2DC071;
+    }
+}
+.grey {
+    rect {
+        fill: #BDBDBD;
+    }
+}
